@@ -1,0 +1,250 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  fieldOfView 0.7
+  orientation -0.4223367811240841 -0.03572318218106192 0.9057347832365753 3.294516341659943
+  position 12.568602559197318 2.0415418852956067 15.293753739484078
+  follow "base"
+  followType "Pan and Tilt Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.1 0.1
+  rotation 0 1 0 0
+  name "base"
+  floorSize 10 10
+  floorTileSize 0.6 0.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+Solid {
+  translation 4 4 -0.39
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "charger2"
+}
+Solid {
+  translation 0 -1.5 -0.39
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "delivery2"
+}
+Solid {
+  translation 0 1.5 -0.39
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "delivery1"
+}
+Solid {
+  translation 4 -4 -0.39
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "charger1"
+}
+Solid {
+  translation -3 0 -0.39
+  rotation 0 0 1 5.092448674111532e-06
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "pickup2"
+}
+Solid {
+  translation -3 3 -0.39
+  rotation -3.838108760836097e-07 -0.09871079301967325 0.9951161637423442 3.3339507677187956e-08
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+      }
+      geometry Box {
+        size 1 1 1
+      }
+      isPickable FALSE
+    }
+  ]
+  name "pickup3"
+}
+CardboardBox {
+  translation 2 3 0.15
+  name "Shelf 1"
+  size 0.6 0.6 0.5
+  locked TRUE
+}
+CardboardBox {
+  translation 2 0 0.15
+  name "Shelf 3"
+  size 0.6 0.6 0.5
+}
+CardboardBox {
+  translation 2 -3 0.15
+  name "Shelf 2"
+  size 0.6 0.6 0.5
+}
+Wall {
+  translation 0 5 0
+  name "wall 1"
+  size 10 0.1 2
+}
+Wall {
+  translation 0 -5 0
+  name "wall 2"
+  size 10 0.1 2
+}
+Wall {
+  translation 5 0 0
+  name "wall 3"
+  size 0.1 10 2
+}
+Wall {
+  translation -5 0 0
+  name "wall 4"
+  size 0.1 10 2
+}
+Solid {
+  translation -3 -3 -0.39
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+      }
+      geometry Box {
+        size 1 1 1
+      }
+    }
+  ]
+  name "pickup1"
+}
+Pioneer3dx {
+  hidden position_0_0 -69.87325326026604
+  hidden position_0_1 8524.539644305816
+  hidden position_0_2 10531.836022988855
+  hidden linearVelocity_0 0.001789437238672423 -0.14969722381203632 0.00013857166822085968
+  hidden angularVelocity_0 -0.0008814441284881651 -0.0009199663520614713 0.6135158710834009
+  hidden translation_1 -0.19365125967080146 -0.0006000219626855804 0.00013933015051136832
+  hidden rotation_1 -0.2910481073813668 0.6764949450614188 0.6764950764758546 3.708037675895131
+  hidden position_1_0 -27646.099451654154
+  hidden linearVelocity_1 -0.07701388308624615 -0.17102150392070717 -6.80700740737784e-06
+  hidden angularVelocity_1 -0.0009850477356196762 -0.00026853609027840096 0.6338520319147813
+  hidden rotation_2 -0.9999999999999999 0 0 0.08410006397360957
+  hidden linearVelocity_2 -0.08208118700691681 -0.16809087939610212 -1.3154304831398389e-05
+  hidden angularVelocity_2 4.283436096372692 -2.2837676948102876 0.7525982506611492
+  hidden translation_4 0.000765515617022366 0.16698462727548913 0.0012985081324800999
+  hidden rotation_4 0.699969862011633 -0.7114677177124459 0.062095723914444685 3.2606073700451113
+  hidden linearVelocity_4 0.011504391545350158 -0.041361946644993645 -2.2391444262532916e-05
+  hidden angularVelocity_4 0.45628675905974897 0.1267733523355516 0.6122093715267506
+  hidden translation_9 4.0753460644125825e-05 -0.16750336081189765 2.02212259723517e-05
+  hidden rotation_9 0.16085269933784896 -0.18523737762610037 -0.9694397985671587 1.5992197683320333
+  hidden linearVelocity_9 0.06620039487393133 -0.23876322299118707 -3.398590936803638e-06
+  hidden angularVelocity_9 2.4323596179885314 0.675261256287907 0.6133028640577144
+  translation -2.6271350195194585 -2.7284032480733136 0.1941331154520496
+  rotation -0.01842427914031945 -0.019699245838478676 -0.9996361766420596 1.2888467242828512
+  name "robot1"
+  controller "warehouse_controller"
+  controllerArgs [
+    ""
+  ]
+  supervisor TRUE
+  extensionSlot [
+    Compass {
+    }
+    GPS {
+      locked TRUE
+      translationStep 0.05
+      type "laser"
+    }
+  ]
+}
+Pioneer3dx {
+  hidden position_0_0 -94.4977524224082
+  hidden position_0_1 8578.989446300697
+  hidden position_0_2 10694.890941684112
+  hidden linearVelocity_0 -0.003994257909690643 0.017973320494108075 -0.0010392689054140073
+  hidden angularVelocity_0 0.011910992351033961 -0.0009711207881676742 -0.8176784291734885
+  hidden translation_1 -0.1931252668844326 -0.0014250811939911722 0.00013933015051136827
+  hidden rotation_1 -0.4814184540763187 0.6197723718082288 0.6197729255283504 4.038934450295583
+  hidden position_1_0 -27658.81733887393
+  hidden linearVelocity_1 -0.05261996081574459 0.08334612698829441 -0.0020522979664545186
+  hidden angularVelocity_1 -0.15526840554482602 -0.1338034196158146 5.611762829712939
+  hidden rotation_2 -1 0 0 0.23561666939089437
+  hidden linearVelocity_2 -0.0364514413909094 0.030934897818809544 -0.0028138742374845998
+  hidden angularVelocity_2 -0.3998542563439669 0.7227050350032915 5.62843925837971
+  hidden translation_4 -0.0015073450316499936 0.16698462727548913 6.963158921872753e-06
+  hidden rotation_4 -0.3852678417457454 0.3956060189444312 -0.8337053243751736 1.7383113330429134
+  hidden linearVelocity_4 0.13429085321918133 0.06348961707394624 0.0035088964184099517
+  hidden angularVelocity_4 -1.093338282450444 1.4197705672966845 -0.817205458979917
+  hidden translation_9 3.270872746893828e-05 -0.16750336081189765 3.1620905769126016e-05
+  hidden rotation_9 0.29654796982859827 -0.3201524739157426 -0.8997564642925143 1.6775493040868508
+  hidden linearVelocity_9 -0.08143553116993495 -0.10532386478645933 -0.0018600139392619067
+  hidden angularVelocity_9 1.116339832686897 -1.4223761465134217 -0.8176209991077342
+  translation 2.9659321190158288 4.293560997439839 0.1947842460181076
+  rotation 0.01760172432798746 -0.050239753751144325 0.9985820679562127 0.6443213138708707
+  name "robot2"
+  controller "warehouse_controller"
+  controllerArgs [
+    ""
+  ]
+  supervisor TRUE
+  extensionSlot [
+    Compass {
+    }
+    GPS {
+      locked TRUE
+      translationStep 0.05
+      type "laser"
+    }
+  ]
+}

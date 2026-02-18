@@ -1,0 +1,36 @@
+{
+  "robot_id": "Robot 3",
+  "pickup": {
+    "id": "pickup_2",
+    "x": -3.0,
+    "y": 0.0
+  },
+  "shelf": {
+    "id": "shelf_3",
+    "x": 2.0,
+    "y": 0.0
+  },
+  "delivery": {
+    "id": "delivery_2",
+    "x": 0.0,
+    "y": -1.5
+  },
+  "ai_decision": {
+    "decision": "ASSIGN_TASK",
+    "robot_id": "Robot 3",
+    "pickup": {
+      "id": "pickup_2",
+      "x": -3.0,
+      "y": 0.0
+    },
+    "delivery": {
+      "id": "delivery_2",
+      "x": 0.0,
+      "y": -1.5
+    },
+    "estimated_time": 40,
+    "estimated_battery_usage": 15,
+    "confidence": 0.85,
+    "timestamp": "2026-02-14T09:12:22.660399"
+  }
+}

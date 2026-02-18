@@ -1,0 +1,67 @@
+# ===========================================
+# Webots
+# ===========================================
+/protons
+/plugins
+/libraries
+
+# ===========================================
+# Node / Backend
+# ===========================================
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.pnpm-store
+*.local
+.env
+.env.local
+.env.*.local
+
+# ===========================================
+# Python / Controllers
+# ===========================================
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.egg-info/
+*.egg
+.eggs/
+*.manifest
+*.spec
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================================
+# IDE & OS
+# ===========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# Build & Logs
+# ===========================================
+dist/
+build/
+*.log
+logs/
+
+# ===========================================
+# Docker & Generated
+# ===========================================
+docker-compose.override.yml
+controllers/calibrate/zones_*.json
+
+# Backup of backend repo (restore with: mv backend/.git.bak backend/.git to pull from upstream)
+backend/.git.bak

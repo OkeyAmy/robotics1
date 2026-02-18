@@ -1,0 +1,271 @@
+{
+  "robot_id": "Robot 3",
+  "metrics": [
+    {
+      "task_number": 1,
+      "completion_time": 25.664,
+      "energy_used": 8.959999999999853,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 2,
+      "completion_time": 25.664,
+      "energy_used": 16.989999999999856,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 1,
+      "completion_time": 25.664,
+      "energy_used": 8.959999999999853,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 2,
+      "completion_time": 25.664,
+      "energy_used": 16.989999999999856,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 3,
+      "completion_time": 25.66400000000001,
+      "energy_used": 25.02000000000111,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 4,
+      "completion_time": 25.664,
+      "energy_used": 33.050000000001994,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 5,
+      "completion_time": 25.663999999999987,
+      "energy_used": 41.080000000000396,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 6,
+      "completion_time": 25.664000000000016,
+      "energy_used": 49.1099999999988,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 7,
+      "completion_time": 25.664000000000016,
+      "energy_used": 57.1399999999972,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 8,
+      "completion_time": 25.664000000000016,
+      "energy_used": 65.16999999999643,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 9,
+      "completion_time": 25.664000000000016,
+      "energy_used": 73.20000000000054,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 10,
+      "completion_time": 25.663999999999987,
+      "energy_used": 81.23000000000465,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 11,
+      "completion_time": 25.663999999999987,
+      "energy_used": 89.27000000000876,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 12,
+      "completion_time": 25.663999999999987,
+      "energy_used": 97.30000000001287,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 13,
+      "completion_time": 25.664000000000044,
+      "energy_used": 105.33000000001698,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 14,
+      "completion_time": 25.663999999999987,
+      "energy_used": 113.36000000002109,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 15,
+      "completion_time": 25.664000000000044,
+      "energy_used": 121.3900000000252,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 1,
+      "completion_time": 25.664,
+      "energy_used": 8.959999999999853,
+      "pickup": "pickup_2",
+      "delivery": "delivery_2"
+    },
+    {
+      "task_number": 2,
+      "completion_time": 25.664,
+      "energy_used": 16.989999999999856,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 3,
+      "completion_time": 25.66400000000001,
+      "energy_used": 25.02000000000111,
+      "pickup": "pickup_2",
+      "delivery": "delivery_1"
+    },
+    {
+      "task_number": 1,
+      "completion_time": 30.496,
+      "energy_used": 10.469999999999821,
+      "pickup": "pickup_2",
+      "shelf": "shelf_2",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 2,
+      "completion_time": 30.495999999999995,
+      "energy_used": 21.010000000000485,
+      "pickup": "pickup_2",
+      "shelf": "shelf_2",
+      "delivery": "delivery_1",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 3,
+      "completion_time": 30.49600000000001,
+      "energy_used": 31.550000000002132,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_1",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 4,
+      "completion_time": 30.49600000000001,
+      "energy_used": 42.090000000000195,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 5,
+      "completion_time": 30.49599999999998,
+      "energy_used": 52.6299999999981,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 6,
+      "completion_time": 30.49600000000001,
+      "energy_used": 63.169999999996,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_1",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 1,
+      "completion_time": 30.496000000000002,
+      "energy_used": 10.439999999999822,
+      "pickup": "pickup_2",
+      "shelf": "shelf_3",
+      "delivery": "delivery_1",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 2,
+      "completion_time": 30.496000000000002,
+      "energy_used": 19.970000000000322,
+      "pickup": "pickup_2",
+      "shelf": "shelf_3",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 3,
+      "completion_time": 30.496000000000002,
+      "energy_used": 29.500000000001812,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_1",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 4,
+      "completion_time": 30.495999999999995,
+      "energy_used": 39.030000000000804,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 5,
+      "completion_time": 30.495999999999995,
+      "energy_used": 48.55999999999891,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_1",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 6,
+      "completion_time": 30.49600000000001,
+      "energy_used": 58.08999999999701,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 7,
+      "completion_time": 30.49600000000001,
+      "energy_used": 67.61999999999769,
+      "pickup": "pickup_2",
+      "shelf": "shelf_1",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    },
+    {
+      "task_number": 8,
+      "completion_time": 30.49599999999998,
+      "energy_used": 77.15000000000256,
+      "pickup": "pickup_2",
+      "shelf": "shelf_2",
+      "delivery": "delivery_2",
+      "robot_id": "Robot 3"
+    }
+  ]
+}
